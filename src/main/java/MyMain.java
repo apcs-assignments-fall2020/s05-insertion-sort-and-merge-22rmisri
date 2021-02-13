@@ -4,8 +4,13 @@ public class MyMain {
 
     // Sorts the ArrayList using insertion sort
     public static ArrayList<Integer> insertionSort(ArrayList<Integer> list) {
-        
-        
+        ArrayList<Integer> new_list = new ArrayList<Integer>();
+        new_list.add(list.get(1));
+        for (int i = 0; i < list.size(); i++) {
+                if (list.get(i) > new_list.get(i-1)) {
+                    list.get()
+                }
+        }
         return null;
     }
 
@@ -26,7 +31,7 @@ public class MyMain {
                 newarr[newarridx] = arr1[arr1idx];
                 arr1idx++;
             }
-            newarr[newarridx]++;
+            newarridx++;
         }
         while (arr1idx < arr1.length) {
             newarr[newarridx] = arr1[arr1idx];
