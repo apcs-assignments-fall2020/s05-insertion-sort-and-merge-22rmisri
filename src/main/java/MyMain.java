@@ -12,8 +12,6 @@ public class MyMain {
                     new_list.add(j, list.get(i+1));
                     break;
                 }
-
-                //[3 7 9]
                 else if (j == new_list.size()-1) {
                     new_list.add(list.get(i+1));
                     break;
